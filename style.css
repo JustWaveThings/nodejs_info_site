@@ -5,10 +5,9 @@ body {
   color: #000;
   text-align: left;
 }
-
 h1 {
   font-size: 32px;
-  margin-top: 80px;
+  margin-top: 2rem;
 }
 p {
   font-size: 20px;
@@ -35,5 +34,18 @@ nav > ul {
 
 nav > ul > li {
   list-style: none;
-  text-align: left;
+}
+
+.contact > ul > a {
+  list-style: none;
+  background-color: green;
+}
+
+section > ul {
+  list-style: none;
+}
+
+body > main > section > ul > li > a {
+  background-color: #f2f2f7;
+  color: #000;
 }
