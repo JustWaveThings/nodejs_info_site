@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_info_site",
+  "version": "1.0.0",
+  "description": "https://www.theodinproject.com/lessons/nodejs-basic-informational-site/v2_project_submissions?page=49",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustWaveThings/nodejs_info_site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustWaveThings/nodejs_info_site/issues"
+  },
+  "homepage": "https://github.com/JustWaveThings/nodejs_info_site#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
