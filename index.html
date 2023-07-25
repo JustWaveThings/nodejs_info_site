@@ -11,7 +11,59 @@
       <head>
         <meta charset="UTF-8" />
         <title>Node.js Informational Site</title>
-        <link rel="stylesheet" href="style.css" />
+        <style>
+          body {
+            background-color: #f2f2f7;
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: 16px;
+            color: #000;
+            text-align: left;
+          }
+          h1 {
+            font-size: 32px;
+            margin-top: 2rem;
+          }
+          p {
+            font-size: 20px;
+            margin-top: 20px;
+            max-width: 65%;
+          }
+          a {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 10px 20px;
+            background-color: #007aff;
+            color: #fff;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+          }
+
+          nav > ul {
+            display: flex;
+            justify-content: flex-start;
+            gap: 2rem;
+          }
+
+          nav > ul > li {
+            list-style: none;
+          }
+
+          .contact > ul > a {
+            list-style: none;
+            background-color: green;
+          }
+
+          section > ul {
+            list-style: none;
+          }
+
+          body > main > section > ul > li > a {
+            background-color: #f2f2f7;
+            color: #000;
+          }
+        </style>
       </head>
       <body>
         <main>
@@ -19,8 +71,8 @@
             <h1>Welcome to the Node.js Informational Site</h1>
             <nav>
               <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact-me.html">Contact</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="contact-me">Contact</a></li>
               </ul>
             </nav>
           </header>
